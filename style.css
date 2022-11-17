@@ -19,9 +19,11 @@ h1 {
 .half-width {
 
     width: 50%;
-    padding-right: 2px;
-    padding-left: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
     margin-left: 100px;
+
+
 }
 
 .half-width p {
@@ -38,6 +40,8 @@ h1 {
     color: white;
     padding: 10px 20px;
     border: solid;
+    border-radius: 10px;
+    background-image: linear-gradient(orange, red);
 
 
 
@@ -46,4 +50,24 @@ h1 {
 .background {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.second {
+    display: flex;
+}
+
+.edit {
+    width: 110%;
+    margin-left: 0px;
+    padding-left: 0px;
+
+
+
+}
+
+.bg {
+
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
