@@ -28,7 +28,7 @@ h1 {
 
 .half-width p {
     padding-left: 2px;
-    padding-right: 10px;
+    padding-right: 20px;
     font-size: 15px;
 }
 
@@ -70,4 +70,29 @@ h1 {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.se {
+
+    margin-right: 40px;
+    margin-left: 0%;
+}
+
+.third {
+    display: flex;
+    width: 100%;
+}
+
+.middle {
+    border-left: 7px solid blue;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    width: 100%;
+    margin: 20px;
+    padding-left: 10px;
+
+}
+
+footer p {
+    text-align: center;
 }
